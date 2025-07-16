@@ -1,0 +1,120 @@
+.Orange {
+  width: 1000px;
+  height: 315px;
+  margin-top: 20px;
+  margin-left: 130px;
+  border-radius: 32px;
+  background: linear-gradient(to bottom, #FA7A3A, #F9C827);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Orange h1 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 10px;
+}
+
+.Orange p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 8px 0 20px 0;
+}
+
+.btn3 {
+  gap: 32px;
+  width: 163px;
+  height: 56px;
+  background-color: #FFFFFF;
+  border-radius: 90px;
+  border: none;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
+.btn3 p {
+  color: #FFA300;
+  margin-top: 20px;
+}
+
+.btn3 img {
+  height: 28px;
+  width: 28px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.txt4 {
+  text-align: center;
+  margin-top: 100px;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #031432;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ✅ Responsive (mobile) */
+@media (max-width: 768px) {
+  .Orange {
+    width: 90%;
+    height: auto;
+    margin: 120px 0px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .Orange h1 {
+    font-size: 24px;
+  }
+
+  .Orange p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .btn3 {
+    width: 140px;
+    height: 50px;
+    gap: 16px;
+    margin-top: 20px;
+  }
+
+  .btn3 p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .btn3 img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .txt4 {
+    font-size: 32px;
+    margin-top: 180px;
+  }
+}
+
+

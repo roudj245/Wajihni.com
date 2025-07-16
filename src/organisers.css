@@ -1,0 +1,169 @@
+.Organisers {
+  height: auto;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.o-title {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 100%;
+  text-align: center;
+  color: #031432;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 190px;
+}
+
+/* SLIDER */
+.slider-wrapper3 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.card-slider-container3 {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 60px;
+  direction: rtl;
+  position: relative;
+  box-sizing: border-box;
+}
+
+
+.arrow3 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  cursor: pointer;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.custom-prev3 {
+  border-width: 20px 25px 20px 0;
+  border-color: transparent #000 transparent transparent;
+  right: 1150px;
+}
+
+.custom-next3 {
+  border-width: 20px 0 20px 25px;
+  border-color: transparent transparent transparent #000;
+  left: 1180px;
+}
+
+.arrow3:hover {
+  filter: brightness(1.3);
+}
+
+
+.card3 {
+  width: 250px;
+  height: 360px;
+  border-radius: 24px;
+  padding: 32px;
+  background-color: #fff;
+  transition: transform 0.3s ease;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.card3:hover {
+  transform: scale(1.05);
+}
+
+.profile-img3 {
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.titre3 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+  margin-top: 10px;
+}
+
+.txt3 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6C87AE;
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px 0;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.icons img {
+  height: 32px;
+  width: 32px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .slider-wrapper3 {
+    padding: 0;
+  }
+
+  .card-slider-container3 {
+    padding: 0 30px;
+  }
+
+  .custom-prev3 {
+    right: 420px;
+  }
+
+  .custom-next3 {
+    left: 420px;
+  }
+
+  .card3 {
+    width: 90%;
+    max-width: 280px;
+    margin: auto;
+    height: auto;
+    padding: 24px;
+  }
+
+  .profile-img3 {
+    width: 140px;
+    height: 140px;
+  }
+
+  .titre3 {
+    font-size: 18px;
+  }
+
+  .txt3 {
+    font-size: 13px;
+  }
+
+  .icons img {
+    width: 28px;
+    height: 28px;
+  }
+  .o-title{
+    font-size: 32px;
+  }
+}
+
+
+
+

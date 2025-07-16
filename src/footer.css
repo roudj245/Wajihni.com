@@ -1,0 +1,173 @@
+/* Logo Section */
+.logo4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.logo4 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff;
+  margin: 0;
+}
+.logo4 img {
+  height: 30px;
+  width: 30px;
+}
+
+
+.Footer {
+  width: 100%;
+  background: linear-gradient(to right, #FA7A3A, #F9C827);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 20px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  gap: 30px;
+   margin-top: 100px;
+}
+
+
+.left1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.icons2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.icons2 img {
+  height: 30px;
+  width: 30px;
+}
+
+/* Text Styles */
+.style {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  text-align: right;
+}
+
+.style2 {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+/* Middle Links */
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.middle2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.right1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+
+.btn3 {
+  gap: 12px;
+  width: 163px;
+  height: 56px;
+  background-color: #fff;
+  border-radius: 90px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+.btn3 p {
+  color: #FFA300;
+  font-weight: 600;
+  margin: 0;
+}
+.btn3 img {
+  height: 28px;
+  width: 28px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .Footer {
+    flex-direction: column;
+    padding: 30px 20px;
+    gap: 40px;
+    margin-top: 150px;
+    width:450px;
+
+  }
+
+  .logo4 p {
+    font-size: 26px;
+  }
+
+  .style {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .style2 {
+    font-size: 18px;
+  }
+
+  .btn3 {
+    width: 150px;
+    height: 50px;
+  }
+
+  .btn3 img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .btn3 p {
+    font-size: 14px;
+  }
+
+  .icons2 img {
+    width: 26px;
+    height: 26px;
+  }
+
+  .features {
+    gap: 8px;
+  }
+
+  .features a {
+    font-size: 14px;
+  }
+
+  .right1 p {
+    font-size: 14px;
+    text-align: center;
+  }
+}

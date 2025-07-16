@@ -1,0 +1,146 @@
+.About {
+  width: 1010px;
+  height: 366px;
+  margin-top: 200px;
+  margin-left: 170px;
+  gap: 124px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.picture {
+  height: 300px;
+  width: 300px;
+}
+
+.text5 {
+  height: 250px;
+  width: 485px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+}
+
+.title2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 2%;
+  color: orange;
+  margin-top: 10px;
+}
+
+.title3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+}
+
+.title4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6C87AE;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.btn2 {
+  width: 200px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: linear-gradient(to right, #FA7A3A,#F9C827);
+  color: white;
+  border: none;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
+.btn2 p {
+  margin-left: 50px;
+}
+
+.btn2:hover {
+  opacity: 0.9;
+}
+
+.btn2 img {
+  width: 20px;
+  height: 20px;
+  margin-left: 0px;
+}
+
+/* ✅ Responsive pour téléphone */
+@media (max-width: 768px) {
+  .About {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-left: 0px;
+    padding: 20px;
+    height: auto;
+    gap: 30px;
+    margin-top: 140px;
+  }
+
+  .picture {
+    width: 220px;
+    height: auto;
+    margin-right: 50px;
+  }
+
+  .text5 {
+    width: 90%;
+    text-align: center;
+    margin-right: 50px;
+  }
+
+  .title2 {
+    font-size: 18px;
+  }
+
+  .title3 {
+    font-size: 24px;
+  }
+
+  .title4 {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .btn2 {
+    width: 180px;
+    height: 50px;
+    font-size: 14px;
+    gap: 12px;
+  }
+
+  .btn2 p {
+    margin-right: 0;
+  }
+
+  .btn2 img {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+
+
+
+

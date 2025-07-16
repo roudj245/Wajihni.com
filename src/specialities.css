@@ -1,0 +1,119 @@
+.Special {
+  height: 366px;
+  width: 1200px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0px;
+}
+
+.left {
+  width: 405px;
+  height: 226px;
+  margin-left: 0px;
+}
+
+.LOGO {
+  height: 312px;
+  width: 312px;
+}
+
+.left h1 {
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  line-height: 100%;
+  text-align: center;
+  color: #031432;
+}
+
+.left p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #6c87ae;
+}
+
+.Special button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 24px;
+  background: linear-gradient(to right, #fca311, #ff8b61);
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-left: 110px;
+}
+
+button span {
+  color: white !important;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0;
+  font-family: inherit;
+  margin-left: 40px;
+}
+
+.btn2 img {
+  width: 20px;
+  height: 20px;
+}
+
+/* ✅ Responsive version mobile */
+@media (max-width: 768px) {
+  .Special {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    gap: 30px;
+  }
+
+  .LOGO {
+    width: 220px;
+    height: auto;
+    margin-right: 40px;
+  }
+
+  .left {
+    width: 90%;
+    height: auto;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .left h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-right: 40px;
+  }
+
+  .left p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-right: 40px;
+  }
+
+  .Special button {
+    margin: 20px 150px 0 auto;
+    padding: 10px 20px;
+    align-items:center;
+    vertical-align: center;
+  }
+
+  button span {
+    margin-right: 0px;
+    font-size: 13px;
+  }
+
+  .btn2 img {
+    width: 18px;
+    height: 18px;
+  }
+}
+
