@@ -8,7 +8,6 @@ import Orange from './orange.js';
 import CardSlider2 from './slider2.js';
 import Organisers from './organisers.js';
 import Footer from './footer.js';
-import react from 'react';
 
 function App() {
   return (
