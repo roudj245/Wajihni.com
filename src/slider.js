@@ -1,10 +1,8 @@
 
 import './CardSlider.css';
-import picture from './medical.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
-import pic1 from './telecharger2.png'
-import { useRef, useEffect, useState } from 'react';
+import { useRef, useState } from 'react';
 import laptop from './laptop.png'
 import intelligence from './ai.png.png'
 import poly from './polytechnique.png'
@@ -99,7 +97,7 @@ const data = [
 function CardSlider() {
   const prevRef = useRef(null);
   const nextRef = useRef(null);
-  const [swiperReady, setSwiperReady] = useState(false);
+  const [setSwiperReady] = useState(false);
 
   return (
     <div className="slider-wrapper2">
@@ -120,10 +118,10 @@ function CardSlider() {
             setTimeout(() => {
               swiper.params.navigation.prevEl = prevRef.current;
               swiper.params.navigation.nextEl = nextRef.current;
-              swiper.navigation.destroy(); // reset
-              swiper.navigation.init();    // re-init
-              swiper.navigation.update();  // mise à jour
-              setSwiperReady(true);       // indicateur OK
+              swiper.navigation.destroy(); 
+              swiper.navigation.init();   
+              swiper.navigation.update();  
+              setSwiperReady(true);       
             });
           }}
           breakpoints={{
