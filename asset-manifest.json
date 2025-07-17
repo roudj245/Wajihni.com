@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Wajihni.com/static/css/main.db945d91.css",
+    "main.css": "/Wajihni.com/static/css/main.14a0188d.css",
     "main.js": "/Wajihni.com/static/js/main.9a65e71f.js",
     "static/js/453.b6aa5946.chunk.js": "/Wajihni.com/static/js/453.b6aa5946.chunk.js",
     "static/media/pic2.JPG": "/Wajihni.com/static/media/pic2.c81fc5a131e5ccffdcba.JPG",
@@ -76,12 +76,12 @@
     "static/media/petro.png": "/Wajihni.com/static/media/petro.77b6f2498ca061f06491.png",
     "static/media/france.png": "/Wajihni.com/static/media/france.82644f24a4c0cecd5bbb.png",
     "index.html": "/Wajihni.com/index.html",
-    "main.db945d91.css.map": "/Wajihni.com/static/css/main.db945d91.css.map",
+    "main.14a0188d.css.map": "/Wajihni.com/static/css/main.14a0188d.css.map",
     "main.9a65e71f.js.map": "/Wajihni.com/static/js/main.9a65e71f.js.map",
     "453.b6aa5946.chunk.js.map": "/Wajihni.com/static/js/453.b6aa5946.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db945d91.css",
+    "static/css/main.14a0188d.css",
     "static/js/main.9a65e71f.js"
   ]
 }
