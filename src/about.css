@@ -24,33 +24,32 @@
   gap: 0px;
 }
 
-.title2 {
+.title2, .title3, .title4 {
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 100%;
+  text-align: center;
+}
+
+.title2 {
   font-weight: 500;
   font-size: 22px;
-  line-height: 100%;
-  letter-spacing: 2%;
   color: orange;
   margin-top: 10px;
 }
 
 .title3 {
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-size: 32px;
-  line-height: 100%;
-  color: rgb(0, 0, 0);
+  color: black;
   margin-top: 10px;
 }
 
 .title4 {
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #6C87AE;
-  margin-top: 0px;
-  text-align: center;
+  margin-top: 0;
 }
 
 .btn2 {
@@ -58,8 +57,9 @@
   height: 56px;
   display: flex;
   align-items: center;
-  gap: 20px;
-  background: linear-gradient(to right, #FA7A3A,#F9C827);
+  justify-content: center;
+  gap: 12px;
+  background: linear-gradient(to right, #FA7A3A, #F9C827);
   color: white;
   border: none;
   border-radius: 999px;
@@ -70,10 +70,6 @@
   transition: 0.3s ease;
 }
 
-.btn2 p {
-  margin-left: 50px;
-}
-
 .btn2:hover {
   opacity: 0.9;
 }
@@ -81,17 +77,16 @@
 .btn2 img {
   width: 20px;
   height: 20px;
-  margin-left: 0px;
 }
 
-/* ✅ Responsive pour téléphone */
+/* ✅ Responsive Mobile */
 @media (max-width: 768px) {
   .About {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-left: 0px;
+    margin-left: 0;
     padding: 20px;
     height: auto;
     gap: 30px;
@@ -101,13 +96,14 @@
   .picture {
     width: 220px;
     height: auto;
-    margin-right: 50px;
+    margin: 0 auto;
   }
 
   .text5 {
-    width: 90%;
+    width: 100%;
+    padding: 0 10px;
+    align-items: center;
     text-align: center;
-    margin-right: 50px;
   }
 
   .title2 {
@@ -119,19 +115,16 @@
   }
 
   .title4 {
-    font-size: 15px;
+    font-size: 11px;
     line-height: 22px;
+    
   }
 
   .btn2 {
     width: 180px;
     height: 50px;
     font-size: 14px;
-    gap: 12px;
-  }
-
-  .btn2 p {
-    margin-right: 0;
+    gap: 10px;
   }
 
   .btn2 img {
@@ -139,6 +132,7 @@
     height: 18px;
   }
 }
+
 
 
 

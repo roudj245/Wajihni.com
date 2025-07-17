@@ -38,7 +38,7 @@
   margin-bottom: 30px;
 }
 
-.btn {
+.btn2 {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -52,17 +52,13 @@
   cursor: pointer;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: 0.3s ease;
-  text-decoration: none;
-}
-.btn p {
-  text-decoration: none;
 }
 
-.btn:hover {
+.btn2:hover {
   opacity: 0.9;
 }
 
-.btn img {
+.btn2 img {
   width: 20px;
   height: 20px;
 }
@@ -80,8 +76,10 @@ a {
 @media (max-width: 768px) {
   .home {
     flex-direction: column-reverse;
+    align-items: center;
     padding: 40px 20px;
     text-align: center;
+    gap: 20px;
   }
 
   .text {
@@ -89,7 +87,7 @@ a {
   }
 
   .bold {
-    font-size: 28px;
+    font-size: 26px;
   }
 
   .normal {
@@ -102,11 +100,12 @@ a {
   }
 
   .photo1 {
-    width: 100%;
+    width: 90%;
     max-width: 300px;
     margin-top: 30px;
   }
 }
+
 
 
 
