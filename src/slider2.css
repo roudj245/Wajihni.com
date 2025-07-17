@@ -69,7 +69,7 @@
 /* Version mobile */
 @media (max-width: 768px) {
   .slider-wrapper{
-    margin-left: 20px;
+    margin-left: 0px;
   }
   .card-slider-container {
     width: 85%;
