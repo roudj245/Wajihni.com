@@ -80,6 +80,7 @@ a {
     padding: 40px 20px;
     text-align: center;
     gap: 20px;
+    margin-left: 10px;
   }
 
   .text {

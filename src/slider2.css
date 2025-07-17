@@ -68,6 +68,9 @@
 
 /* Version mobile */
 @media (max-width: 768px) {
+  .slider-wrapper{
+    margin-left: 10px;
+  }
   .card-slider-container {
     width: 85%;
   }
