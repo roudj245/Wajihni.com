@@ -25,7 +25,7 @@ const data = [
   
 ];
 
-function CardSlider() {
+function Organisers() {
   return (
     <div className='Organisers'>
     <p className='o-title'>تواصل مع المؤطرين</p>
@@ -75,4 +75,4 @@ function CardSlider() {
     </div>
   );
 }
-export default CardSlider
+export default Organisers
