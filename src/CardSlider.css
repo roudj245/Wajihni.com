@@ -2,21 +2,25 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 5px;
   margin-top: 100px;
   position: relative;
 }
 .custom-prev2 {
   position: relative;
-  left: 5px;
+  top: 80%;
+  margin-right: 20px;
+  margin-top: 100px;
 }
 
 .custom-next2 {
   position: relative;
-  right: -0px;
+  top: 80%;
+  margin-left: 20px;
+  margin-top: 100px;
 }
 
-/* Swiper container */
+
 .card-slider-container2 {
   width: 80%;
   height: 500px;
@@ -30,12 +34,12 @@
   border-style: solid;
 }
 .custom-prev2 {
-  border-width: 20px 25px 20px 0;
+  border-width: 25px 30px 25px 0;
   border-color: transparent #e49115 transparent transparent;
 }
 
 .custom-next2 {
-  border-width: 20px 0 20px 25px;
+  border-width: 25px 0 25px 30px;
   border-color: transparent transparent transparent #e49115;
 }
 .arrow2:hover {
@@ -48,14 +52,13 @@
   background-color: #fff;
   border-radius: 24px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-  padding: 32px;
+  padding: 40px;
   text-align: center;
   transition: transform 0.3s ease;
-  height: 430px; /* Force consistent height */
-  width: 246px;
-
+  height: 510px; 
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .card2:hover {
@@ -63,12 +66,12 @@
 }
 
 .profile-img {
-  width: 152px;
-  height: 140px;
+  width: 180px;
+  height: 170px;
   object-fit: cover;
-  margin-bottom: 15px;
-  align-items: center;
-  vertical-align: middle;
+  margin: 0 auto 20px auto;
+  flex-shrink: 0;
+  display: block;
 }
 
 
@@ -77,9 +80,14 @@
   font-size: 14px;
   line-height: 20px;
   text-align: right;
-
-  flex-grow: 1; /* Pushes the button down */
+  height: 120px; /* Fixed height for text area */
   overflow: hidden;
+  word-wrap: break-word;
+  -webkit-line-clamp: 6;
+  line-clamp: 6; /* Standard property for compatibility */
+  -webkit-box-orient: vertical;
+  margin-bottom: 15px;
+  flex-grow: 1;
 
 }
 
@@ -89,19 +97,27 @@
     text-align: right;
     font-weight: 600;
     font-size: 24px;
-    line-height: 21px;
+    line-height: 28px;
     letter-spacing: 0%;
     font-style: bold;
-    vertical-align: middle;
     font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    margin-bottom: 15px;
 }
 .card2 button p{
-   width: 100px;
-   height: 12px;
+   width: auto;
+   height: auto;
+   margin: 0;
 }
 .card2 button{
       align-self: center;
-      margin-top: 20px;
+      margin-top: auto;
+      flex-shrink: 0;
+      min-height: 50px;
+      width: auto;
+      padding: 15px 30px;
+      font-size: 16px;
+      font-weight: 600;
 }  
 
 
@@ -130,17 +146,19 @@
   .custom-prev2 {
     left: 10px;
     border-width: 15px 20px 15px 0;
+    margin-top: 0px;
   }
 
   .custom-next2 {
     right: 10px;
     left: auto;
     border-width: 15px 0 15px 20px;
+    margin-top: 0px;
   }
 
   .card2 {
     width: 280px;
-    height: 470px;
+    height: 500px;
     margin: auto;
   }
 
