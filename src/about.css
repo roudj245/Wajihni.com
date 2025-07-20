@@ -79,19 +79,19 @@
   height: 20px;
 }
 
-/* ✅ Responsive Mobile */
+
 @media (max-width: 768px) {
   .About {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-left: -20px;
+    margin: 0 auto;
     padding: 20px;
-    height: auto;
+    min-height: 100vh;
     gap: 30px;
-    margin-top: 140px;
     text-align: center;
+    display: flex;
   }
 
   .picture {
@@ -103,29 +103,35 @@
 
   .text5 {
     width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
     padding: 0 10px;
-    align-items: center;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 15px;
   }
 
   .title2 {
     font-size: 18px;
     text-align: center;
+    margin: 0 auto;
   }
 
   .title3 {
     font-size: 24px;
     text-align: center;
+    margin: 0 auto;
   }
 
   .title4 {
     font-size: 11px;
     line-height: 22px;
     text-align: center;
+    margin: 0 auto;
+    max-width: 350px;
   }
 
   .btn2 {
@@ -136,12 +142,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
   }
 
   .btn2 img {
     width: 18px;
     height: 18px;
-    margin: 0 auto;
   }
 }
 
