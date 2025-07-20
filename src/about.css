@@ -91,12 +91,14 @@
     height: auto;
     gap: 30px;
     margin-top: 140px;
+    text-align: center;
   }
 
   .picture {
     width: 220px;
     height: auto;
     margin: 0 auto;
+    display: block;
   }
 
   .text5 {
@@ -104,20 +106,26 @@
     padding: 0 10px;
     align-items: center;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .title2 {
     font-size: 18px;
+    text-align: center;
   }
 
   .title3 {
     font-size: 24px;
+    text-align: center;
   }
 
   .title4 {
     font-size: 11px;
     line-height: 22px;
-    
+    text-align: center;
   }
 
   .btn2 {
@@ -125,11 +133,15 @@
     height: 50px;
     font-size: 14px;
     gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .btn2 img {
     width: 18px;
     height: 18px;
+    margin: 0 auto;
   }
 }
 

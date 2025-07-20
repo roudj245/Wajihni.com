@@ -107,35 +107,35 @@
 
 @media (max-width: 768px) {
   .slider-wrapper2 {
-    padding: 0 0;
-    margin-top: 90px;
-    size: 70%;
-   margin-left: 0px;
+    padding: 0;
+    margin: 90px auto 0;
+    justify-content: center;
   }
 
   .card-slider-container2 {
-    padding: 0 40px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
   }
 
   .arrow2 {
     display: block;
-    top: 50%;
-  }
-
-  .custom-prev2,
-  .custom-next2 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    z-index: 10;
+    z-index: 15;
   }
 
   .custom-prev2 {
-    left: 9%;
+    left: 10px;
+    border-width: 15px 20px 15px 0;
   }
 
   .custom-next2 {
-    left: 86%;
+    right: 10px;
+    left: auto;
+    border-width: 15px 0 15px 20px;
   }
 
   .card2 {

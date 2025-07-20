@@ -111,6 +111,8 @@
     max-width: 100%;
     overflow-x: hidden;
     margin-left: 0px;
+    text-align: center;
+    align-items: center;
   }
 
   .logo4 p {
@@ -120,19 +122,23 @@
   .style,
   .fin p {
     font-size: 14px;
+    text-align: center;
   }
 
   .style2 {
     font-size: 18px;
+    text-align: center;
   }
 
   .features a {
     font-size: 14px;
+    text-align: center;
   }
 
   .btn3 {
     width: 150px;
     height: 50px;
+    justify-content: center;
   }
 
   .btn3 img {
@@ -142,6 +148,7 @@
 
   .btn3 p {
     font-size: 14px;
+    text-align: center;
   }
 
   .icons2 img {

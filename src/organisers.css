@@ -119,20 +119,33 @@
 /* RESPONSIVE */
 @media (max-width: 768px) {
   .slider-wrapper3 {
-    margin-left:20px;
+    margin: 0 auto;
     padding: 0;
+    justify-content: center;
   }
 
   .card-slider-container3 {
-    padding: 0 30px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
   }
 
   .custom-prev3 {
-    left: 45px;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 15;
+    border-width: 15px 20px 15px 0;
   }
 
   .custom-next3 {
-    left :280px;
+    right: 10px;
+    left: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 15;
+    border-width: 15px 0 15px 20px;
   }
 
   .card3 {

@@ -76,19 +76,26 @@ button span {
     padding: 20px;
     height: auto;
     gap: 30px;
-    margin-left: -20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .LOGO {
     width: 220px;
     height: auto;
-    margin-right: 0px;
+    margin: 0 auto;
   }
 
   .left {
     width: 100%;
     height: auto;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .left h1 {
@@ -101,12 +108,13 @@ button span {
     font-size: 14px;
     line-height: 22px;
     margin-right: 0px;
+    text-align: center;
   }
 
   .Special button {
-    margin: 20px 150px 0 auto;
+    margin: 20px auto 0 auto;
     padding: 10px 20px;
-    display: none;
+    display: block;
   }
 
   button span {

@@ -78,12 +78,11 @@
   .Orange {
     width: 90%;
     height: auto;
-    margin: 130px 0px;
+    margin: 130px auto;
     padding: 20px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-right: 200px;
   }
 
   .Orange h1 {
