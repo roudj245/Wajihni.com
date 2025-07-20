@@ -9,6 +9,8 @@ import pic4 from './pic.jpg'
 import pic5 from './pic2.JPG'
 import pic6 from './pic3.jpg'
 import malek from './malek.webp'
+import moundhir from './moundhir.jpg'
+import ghano from './ghano.jpg'
 
 
 
@@ -22,6 +24,8 @@ const data = [
   { img: malek, titre: 'أومونة عبد المالك' ,  text7:'طالب بالمدرسة الوطنية العليا للأشغال العمومية عضو شاب نشط في جمعية العلماء المسلمين بشرشال و عضو منظم لوجهني في طبعته الرابعة', link1:'https://www.facebook.com/mal.k.oumouna', link2:'https://www.instagram.com/_malek.omn_'},
   { img: pic4, titre: 'مادي محمد',  text7:'طالب بالمدرسة الوطنية متعددة التقنيات عضو شاب نشط في جمعية العلماء المسلمين بشرشال و عضو منظم لوجهني في طبعته الرابعة', link1:'https://www.facebook.com/mohamed.maddi.131222' , link2:'https://www.instagram.com/mohm_a2d/' },
   { img: pic5, titre: 'بلميلود إياد',  text7:'طالب بالإعلام الآلي عضو شاب نشط في جمعية العلماء المسلمين بشرشال و عضو منظم لوجهني في طبعته الرابعة', link1:'https://www.facebook.com/iyed.chen' , link2:'https://www.instagram.com/iyedbelm/' },
+  { img : moundhir , titre : 'ميلودي المنذر ' , text7: 'خريج بالمدرسة الوطنية متعددة التقنيات عضو شاب نشط في جمعية العلماء المسلمين بشرشال و عضو منظم لوجهني في طبعته الرابع', link1:'https://www.facebook.com/mondhirro?locale=fr_FR', link2:'https://www.instagram.com/mondhirro/'},
+  { img: ghano, titre: 'الماني عبد الغني',  text7:'طالب بالمدرسة الوطنية متعددة التقنيات عضو شاب نشط في جمعية العلماء المسلمين بشرشال و عضو منظم لوجهني في طبعته الرابعة', link1:'https://www.facebook.com/gha.nou.898716?locale=fr_FR' , link2:'https://www.instagram.com/ghanou588/' },
   
 ];
 
